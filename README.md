@@ -1,13 +1,13 @@
-!*Frontend#Guidelines
+ *Frontend#Guidelines
 
-##!HTML
+##*HTML
 
 ### Semantics
 
 HTML5 provides us with lots of semantic elements aimed to describe precisely the content. Make sure you benefit from its rich vocabulary.
 
 ```html
-<!-- bad -->
+<*-- bad -->
 <div id=main>
   <div class=article>
     <div class=header>
@@ -890,4 +890,4 @@ compact(["foo", 0]);
 unique(["foo", "foo"]);
 union(["foo"], ["bar"], ["foo"]);
 ```
-   
+    
